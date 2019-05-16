@@ -12,7 +12,7 @@ if($_GET){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Login</title>
+    <title>Inicio de Sesión</title>
 </head>
 <body>
 <div class="container">
@@ -20,11 +20,10 @@ if($_GET){
         <div class="col-sm-12">
              <div class="jumbotron">
                 <center>
-                    <h1 class="display-6 titulos">Login</h1>
+                    <h1 class="display-6 titulos">INICIO DE SESIÓN</h1>
                 </center>
                 <hr class="my-4">
                 <form action="php/iniciarSesion.php" method="POST" enctype="multipart/form-data">
-                    <label >Puede ingresar sin problemas</label>
                     <div class="form-group">
                             <label for="formGroupExampleInput">Nombre de Usuario</label>
                             <input type="text" class="form-control" name="username" 
@@ -46,6 +45,7 @@ if($_GET){
                     }
                     ?>
                 </center>
+                <center> <a href="php/registrarUsuarios.php">Registrarse</a></center>
                 </form>
              </div>
             </div>

@@ -20,7 +20,7 @@ if(isset($_POST['txtpassword']) && isset($_POST['txtpassword2'])){
 
     if($conn->error){
         echo $sql_insert;
-        header('Location: registrarUsuarios.php?error_message2=Ocurrio un error: ' . $conn->error);
+        header('Location: index.php?error_message2=Ocurrio un error: ' . $conn->error);
         exit;
     }else{
        header('Location: validacion.php');

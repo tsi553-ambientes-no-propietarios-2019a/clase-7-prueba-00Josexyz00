@@ -41,7 +41,7 @@ if($_GET){
 
                     <div class="form-group">
                             <label for="formGroupExampleInput3">Tipo:</label>
-                                <select class="custom-select form-control" id="inputGroupSelect01" name="tipo_producto" required>
+                                <select class="custom-select form-control" id="inputGroupSelect01" name="txttipo_producto" required>
                                     <option value="">Seleccione</option>
                                     <option value="Alimentos">Alimento</option>
                                     <option value="vestimenta">vestimenta</option>
@@ -53,13 +53,13 @@ if($_GET){
 
                     <div class="form-group">
                       <label for="formGroupExampleInput2">Cantidad:</label>
-                      <input type="text" class="form-control" name="txtcantidad" 
+                      <input type="text" class="form-control" name="numbercantidad" 
                       placeholder="Ingrese la cantidad" required>
                     </div>
 
                     <div class="form-group">
                       <label for="formGroupExampleInput2">Precio:</label>
-                      <input type="text" class="form-control" name="txtprecio" 
+                      <input type="text" class="form-control" name="numberprecio" 
                       placeholder="Ingrese el precio" required>
                     </div>
 

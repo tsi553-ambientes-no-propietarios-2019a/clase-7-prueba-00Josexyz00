@@ -19,8 +19,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             session_start();
             $_SESSION['username']=$username;
             $_SESSION['password']=$password;
-            header('Location: registrarUsuarios.php');
+
+            header('Location: tabla.php');
             exit;
+            
         }
         
     }else{
